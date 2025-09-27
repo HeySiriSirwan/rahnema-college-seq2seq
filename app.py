@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello0():
-    return 'test'
+    return 'test0'
 
 @app.route('/endpoint1')
 def hello1():
